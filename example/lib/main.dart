@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
-import 'package:settings/settings.dart';
+import 'package:settings/settingsfrompullrequestwithandroidlocationmenu.dart';
 
 void main() => runApp(new MyApp());
 
@@ -24,7 +21,7 @@ class _MyAppState extends State<MyApp> {
           SizedBox(
             height: 100.0,
           ),
-          RaisedButton(onPressed: Settings.openWiFiSettings, child: new Text("Open wifi settings")),
+          RaisedButton(onPressed: SettingsFromPullRequestWithAndroidLocationMenu.openGPSSettings, child: new Text("Open GPS settings")),
         ]),
       ),
     ));

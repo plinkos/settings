@@ -1,4 +1,4 @@
-group 'com.ly.settings'
+group 'com.ly.settingsfrompullrequestwithandroidlocationmenu'
 version '1.0-SNAPSHOT'
 
 buildscript {

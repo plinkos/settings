@@ -1,4 +1,4 @@
-package com.ly.settings;
+package com.ly.settingsfrompullrequestwithandroidlocationmenu;
 
 import android.content.Intent;
 import android.provider.Settings;
@@ -43,7 +43,7 @@ public class SettingsPlugin implements MethodCallHandler {
     }
 
     private void openGPSSettings() {
-        registrar.activity().startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS));
+        registrar.activity().startActivity(new Intent(Settings.MANAGE_APPLICATIONS_SETTINGS));
     }
 
 }

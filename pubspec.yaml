@@ -1,8 +1,8 @@
-name: settings
-description: Flutter plugin providing jump to settings.
-author: Lewis <once10301@gmail.com>
-homepage: https://github.com/once10301/settings
-version: 0.0.4
+name: settingsfrompullrequestwithandroidlocationmenu
+description: This version of settings has been forked of  which originated from https://github.com/once10301/settings.
+author: Spencer <spencerccf@gmail.com>
+homepage: https://github.com/plinkos/settings
+version: 0.0.5
 
 dependencies:
   flutter:
@@ -10,7 +10,7 @@ dependencies:
 
 flutter:
   plugin:
-    androidPackage: com.ly.settings
+    androidPackage: com.ly.settingsfrompullrequestwithandroidlocationmenu
     pluginClass: SettingsPlugin
 
 environment:
